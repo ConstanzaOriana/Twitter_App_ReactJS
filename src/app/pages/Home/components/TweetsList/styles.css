@@ -1,0 +1,19 @@
+.msg-container {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message {
+  font-family: "Nunito";
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.error {
+  color: #d50000;
+}

@@ -1,0 +1,43 @@
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+.register-layout-container {
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 30px;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.error-message {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #d50000;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+}

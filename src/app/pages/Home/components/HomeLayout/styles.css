@@ -1,0 +1,15 @@
+body,
+html {
+  background-color: #fff !important;
+}
+
+.tweets-list-container {
+  width: 600px;
+  margin: 110px auto;
+}
+
+@media (max-width: 768px) {
+  .tweets-list-container {
+    width: 90%;
+  }
+}

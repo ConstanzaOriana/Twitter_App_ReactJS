@@ -1,0 +1,17 @@
+.list{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center; 
+    list-style: none;
+    margin-top: 10%;
+}
+
+.links{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.links:hover{
+    color: rgb(205, 22, 184);
+    transition: 0.5s;
+}
